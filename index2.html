@@ -1,0 +1,21 @@
+<html>
+  <title>java</title>
+  <body>
+    <p>My web page</p>
+    <script>
+      var bird = {
+        x: 100,
+        y: 20,
+        color: "blue",
+        eggs: [1, 2, 3, 4],
+      };
+      for (let i = 0; i < bird.eggs.length; i++) {
+        console.log(bird.eggs[i]);
+      }
+
+      bird.eggs.forEach(function (val, idx) {
+        console.log(val, idx);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+  <title>java</title>
+  <body>
+    <p>My web page</p>
+    <script>
+      let a = 10;
+      console.log(a);
+      let b = [1, 2, 3, 4, 5, 6];
+      console.log(b);
+      console.log("hello world");
+
+      //variables , arrays , functions , loops , classes , objects
+      c = 20;
+      var d = 30;
+      let e = 50;
+
+      function fun() {
+        let a = 5;
+        if (a == 5) {
+          let b = 10;
+          console.log(b);
+        }
+        console.log("outside", b);
+      }
+      function square_root(n) {
+        return Math.sqrt(n);
+      }
+
+      var sqare = function () {
+        console.log("in second sqrt fun");
+      };
+      let s = ["stalin", "mango", 12];
+      s.push("i love u");
+      s.unshift("hee");
+      for (let i = 0; i < s.length; i++) {
+        console.log(s[i]);
+      }
+
+      console.log(s.pop());
+
+      fun();
+      console.log("hello quase", square_root(100));
+    </script>
+  </body>
+</html>
